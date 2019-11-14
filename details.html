@@ -32,7 +32,7 @@
     <link href="./static/styles/details-styles.css" rel="stylesheet">
   </head>
   <body>
-    <div class="container">
+    <div id="top-container" class="container">
   <header class="blog-header py-3">
     <div class="row flex-nowrap justify-content-between align-items-center">
       <div class="col-4 pt-1">
@@ -45,7 +45,7 @@
         <a class="text-muted" href="#">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"></circle><path d="M21 21l-5.2-5.2"></path></svg>
         </a>
-        <a class="btn btn-sm btn-outline-secondary" href="https://getbootstrap.com/docs/4.3/examples/blog/#">Sign up</a>
+        <a class="btn btn-sm btn-outline-secondary" href="signin.html">sign in</a>
       </div>
     </div>
   </header>
@@ -56,7 +56,7 @@
     </div>
   </div>
 
-<main role="main" class="container">
+<main id="main-section" role="main" class="container">
   <div class="row">
     <div class="col-md-8 blog-main">
       <!-- <h3 class="pb-4 mb-4 font-italic border-bottom">
@@ -81,10 +81,10 @@
       </div><!-- /.blog-post -->
 
 
-      <nav class="blog-pagination">
+      <!-- <nav class="blog-pagination">
         <a class="btn btn-outline-primary" href="https://getbootstrap.com/docs/4.3/examples/blog/#">Older</a>
         <a class="btn btn-outline-secondary disabled" href="https://getbootstrap.com/docs/4.3/examples/blog/#" tabindex="-1" aria-disabled="true">Newer</a>
-      </nav>
+      </nav> -->
 
     </div><!-- /.blog-main -->
 
@@ -129,7 +129,7 @@
 <footer class="blog-footer">
   <p></p>
   <p>
-    <a href="#">Back to top</a>
+    <a href="#top-container">Back to top</a>
   </p>
 </footer>
 
